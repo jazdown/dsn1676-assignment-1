@@ -16,3 +16,30 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.masthead {
+    background: transparent url("../images/masthead-bg.png") repeat left center;
+    text-align: center;
+    max-height: 3em;
+}
+
+.logo {
+    width: 1.5em;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title {
+    display: inline-block;
+    background-color: #E7E5D9;
+}
+
+.poster-info {
+    display: inline-block;
+}
