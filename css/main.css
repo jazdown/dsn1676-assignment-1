@@ -11,6 +11,8 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    
+    background-color: #E7E5D9;
 }
 
 *, *:before, *:after {
@@ -29,7 +31,7 @@ img {
 }
 
 .logo {
-    width: 1.5em;
+    width: 2em;
     padding: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -42,4 +44,21 @@ img {
 
 .poster-info {
     display: inline-block;
+}
+
+.border-img {
+    border-image: url(../images/border-image.png) 20 20 20 20 stretch stretch;
+    border-width: 20px 20px 20px 20px;
+}
+
+.wanted-info {
+    background-color: #87714F;
+}
+
+.cowboy-hat {
+    width: 5em;
+}
+
+.handcuffs {
+    width: 3em;
 }
