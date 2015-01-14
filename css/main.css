@@ -13,11 +13,14 @@ html {
     text-size-adjust: 100%;
     
     background-color: #E7E5D9;
-    font-family: "Abril Fatface", serif;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+body {
+    font-family: "Abril Fatface", serif;
 }
 
 img {
@@ -47,7 +50,6 @@ img {
 
 .poster-info {
     display: inline-block;
-    overflow: hidden;
     padding: 10%;
 }
 
