@@ -28,12 +28,13 @@ img {
 .masthead {
     background: transparent url("../images/masthead-bg.png") repeat left center;
     text-align: center;
-    max-height: 3em;
+    vertical-align: middle;
+    height: 3em;
 }
 
 .logo {
-    width: 2em;
-    padding: 10px;
+    margin: 0 0.2em 0 0;
+    width: 1em;
     display: inline-block;
     vertical-align: middle;
 }
@@ -41,23 +42,33 @@ img {
 .title {
     display: inline-block;
     background-color: #E7E5D9;
+    text-shadow: 2px 2px #BBBDC0;
 }
 
 .poster-info {
     display: inline-block;
+    overflow: hidden;
+    padding: 10%;
 }
 
 .border-img {
-    border-image: url(../images/border-image.png) 20 20 20 20 stretch stretch;
+    border-image: url("../images/border-image.png") 20 20 20 20 stretch stretch;
     border-width: 20px 20px 20px 20px;
 }
 
 .wanted-info {
+    text-align: center;
+    color: white;
     background-color: #87714F;
+    background-image: url("../images/cowboy-hat.svg"), url("../images/handcuffs.svg");
+    background-position: center top, center bottom 20px;
+    background-repeat: no-repeat;
+    background-size: 70px 70px, 40px 40px;
 }
 
 .crimes {
     font-family: "Georgia", serif;
+    padding: 10%;
 }
 
 .cowboy-hat {
